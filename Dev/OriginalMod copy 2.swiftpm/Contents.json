@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "cardTexture.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
+ 
+var cardMaterial = SimpleMaterial()
+cardMaterial.baseColor = .init(tint: .white)
+cardMaterial.roughness = 0.1
+cardMaterial.metallic = 0.8
